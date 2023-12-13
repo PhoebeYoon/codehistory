@@ -1,0 +1,4 @@
+section li::marker {
+    content:"\000700" ;
+    font-size:1.2rem;
+}
