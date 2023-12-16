@@ -14,15 +14,16 @@
 		<h1>Code is Science</h1>
 		<section id="introduction">
 			<h2><i class="fa-solid fa-plug icon-plug"></i> Introduction</h2>
-			<p><i class="fa-solid fa-quote-left"></i>
-				<span style="font-size: 1.4rem;">코드에서는 정답은 없다. 정답이 1개일 필요는 없다 </span><i class="fa-solid fa-quote-right"></i>  </p>
+			<p style="font-size: 2rem;"> <i class="fa-solid fa-quote-left"></i>
+				코드에 정답은 없다. 정답이 1개일 필요도 없다.
+				<i class="fa-solid fa-quote-right"></i>  </p>
 		
 				<p><mark>동일한 결과를 얻기위해 여러가지 길을 제시</mark>해 봅니다. 같은 효과를 위해 다양한 방법으로 접근해 봅니다 </p>
 				<p>
-			<span><i>그러므로 이 사이트는 실험적인 면을 가지고 있습니다. 혹시 더 나은 방법을 있을지도 모르죠 </i></span></p>
+			<span><i>이 사이트는 실험적인 면을 가지고 있으며  이렇게 저렇게 바꿔서 다양한 방법을 시도해 봅니다 </i></span></p>
        <p> 설명:</p>
            <ul>
-			<li>해당 페이지는 스크롤을 위해 IntersectionObserver를 사용했다</li>
+			<li>해당 페이지(index)는 스크롤을 위해 IntersectionObserver를 사용했다</li>
 			<li>아직 구상중...</li>
 		   </ul>
 		   <a class="btn code-btn" href="https://github.com/PhoebeYoon/Deep_Javascript/tree/IntersectionObserver">gitHub에서 내용보기</a> 
@@ -39,7 +40,7 @@
 			<section id="endpoints--root">
 				<h2> <i class="fa-solid fa-highlighter"></i>해결1</h2>
 				<h3>[ Sticky Navi ]</h3>
-				<p> <i class="fa-solid fa-hand-point-right"></i>  자바스크립트에서 class로 구현것과 jQuery로 구현한 것</p>
+				<p> <i class="fa-solid fa-hand-point-right"></i> class로 구현한 것을 jQuery로 바꿔보자</p>
 				<p> &#128198; 2023.12.13(수)</p>
 				<ul>
 					<li> window 로드, 스크롤, 브라우저 resize에 반응하도록 했다</li>
@@ -47,6 +48,7 @@
 					<li>메뉴를 클릭했을 때 해당 section에 맞는 메뉴에 하단 표시자가 나타나도록 했다</li>
 					<li>스크롤했을때 각 section의 위치에 맞게 메뉴에 하단 표시자가 이동하도록 했다</li>
 					<li>브라우저의 창 크기가 변경될때 하단 표시자도 그 크기에 맞추도록 했다</li>
+					<li>현재 선택된 탭과 새로 클랙한 탭이 다를때만 하단 표시자가 이동하도록 한다</li>
 					<li>브라우저의 크기가 변하면 section의 크기는 다시 계산되어야 했다.</li>
 					<li>body, html에 animation()에 시간을 주어서 부드럽게 이동하도록 했다</li>
 					<li>
@@ -72,37 +74,37 @@
 	  </div>
 		
 </section>
-	<section id="endpoints--cities-overview">
+	<section id="endpoints--solve2">
 		<h2><i class="fa-solid fa-highlighter"></i>해결2</h2>
 		<h3>[   제목  ]</h3>
 		<p>…</p>
 	</section>
-	<section id="endpoints--city-detail">
+	<section id="endpoints--solve3">
 		<h2><i class="fa-solid fa-highlighter"></i>해결3</h2>
 		<h3>[   제목  ]</h3>
 		<p>…</p>
 	</section>
-	<section id="endpoints--city-config">
+	<section id="endpoints--solve4">
 		<h2><i class="fa-solid fa-highlighter"></i>해결4</h2>
 		<h3>[   제목  ]</h3>
 		<p>…</p>
 	</section>
-	<section id="endpoints--city-spots-overview">
+	<section id="endpoints--solve5">
 		<h2><i class="fa-solid fa-highlighter"></i>해결5</h2>
 		<h3>[   제목  ]</h3>
 		<p>…</p>
 	</section>
-	<section id="endpoints--city-spot-detail">
+	<section id="endpoints--solve6">
 		<h2><i class="fa-solid fa-highlighter"></i>해결6</h2>
 		<h3>[   제목  ]</h3>
 		<p>…</p>
 	</section>
-	<section id="endpoints--city-icons-overview">
+	<section id="endpoints--solve7">
 		<h2><i class="fa-solid fa-highlighter"></i>해결7</h2>
 		<h3>[   제목  ]</h3>
 		<p>…</p>
 	</section>
-	<section id="endpoints--city-icon-detail">
+	<section id="endpoints--solve8">
 		<h2><i class="fa-solid fa-highlighter"></i>해결8</h2>
 		<h3>[   제목  ]</h3>
 		<p>…</p>
@@ -128,13 +130,13 @@
 			<li><a href="#endpoints">Notes</a>
 				<ul>
 					<li class=""><a href="#endpoints--root">해결1</a></li>
-					<li class=""><a href="#endpoints--cities-overview">해결2</a></li>
-					<li class=""><a href="#endpoints--city-detail">해결3</a></li>
-					<li class=""><a href="#endpoints--city-config">해결4</a></li>
-					<li class=""><a href="#endpoints--city-spots-overview">해결5</a></li>
-					<li class=""><a href="#endpoints--city-spot-detail">해결6</a></li>
-					<li class=""><a href="#endpoints--city-icons-overview">해결7</a></li>
-					<li class=""><a href="#endpoints--city-icon-detail">해결8</a></li>
+					<li class=""><a href="#endpoints--solve2">해결2</a></li>
+					<li class=""><a href="#endpoints--solve3">해결3</a></li>
+					<li class=""><a href="#endpoints--solve4">해결4</a></li>
+					<li class=""><a href="#endpoints--solve5">해결5</a></li>
+					<li class=""><a href="#endpoints--solve6">해결6</a></li>
+					<li class=""><a href="#endpoints--solve7">해결7</a></li>
+					<li class=""><a href="#endpoints--solve8">해결8</a></li>
 				</ul>
 			</li>
 			<li class=""><a href="#links">Links</a></li>
