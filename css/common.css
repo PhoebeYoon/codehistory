@@ -77,7 +77,7 @@ margin: 0 auto;
 
 /** enlarge the sections for this demo, so that we have a long scrollable page **/
 section {
-padding-bottom: 20rem;
+padding-bottom: 10rem;
 }
 .icon-plug , .plug-line{ transform: rotate(45deg);}
 /* .photo1 { filter: grayscale(1);}
